@@ -877,7 +877,7 @@ public class GUIGame {
                         print(String.format("%s checks the nightstand again, only to find absolutely nothing.\nNext time for sure though.", player.getName()));
                     } else {
                         print(String.format("%s checks the nightstand again, finding a small note.\nIt reads: 'PIN: 4829'\nConvenient.", player.getName()));
-                        player.addInventory(new TakeableItem("note", "A note with the code 4829."));
+                        player.addInventory(new TakeableItem("note", "A note with a code."));
                     }
                     // DON'T remove nightstand in the bedroom
                     updateRoomButtons();
